@@ -1,0 +1,44 @@
+.link,
+.link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: red;
+    margin: 0;
+    padding: 10px;
+}
+
+.title {
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+}
+
+.div {
+    background-color: red;
+}
+
+.div2 {
+    border-bottom: 1px solid red;
+    font-size: 30px;
+}
+
+p,
+.title,
+.div2 {
+    font-family: 'Vesper Libre', serif;
+}
+
+.btn-header {
+    background-color: red;
+    color: white !important;
+}
+ul {
+    list-style-type: none;
+}
+
+h4, h5 {
+    text-transform: capitalize;
+}

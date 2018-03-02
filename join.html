@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Chicken Clan/Join</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="link">
+                        <h1 class="title">Chicken Clan ©</h1>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="div">
+                        <a href="about-us.html" class="btn btn-header">
+                            About us
+                        </a>
+                        <a href="enemies.html" class="btn btn-header">
+                            Enemies
+                        </a>
+                        <a href="join.html" class="btn btn-header">
+                            Join
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn ba-btn" data-toggle="modal" data-target="#exampleModal">
+                Join
+            </button>
+        </div>
+
+        <div>
+            <ul class="ul" id="memberList">
+                <li>
+                    <h3>
+                        <i>Members</i>
+                    </h3>
+                </li>
+                <li>
+                    <h5>Zian Hirani</h5>
+                </li>
+                <li>
+                    <h5>Thomas Jessop</h5>
+                </li>
+                <li>
+                    <h5>Benyamin Ahmed</h5>
+                </li>
+                <li>
+                    <h5>Ansh Soni</h5>
+                </li>
+                <li>
+                    <h5>Kian Radia</h5>
+                </li>
+                <li>
+                    <h5>Darwin Armstrong Far</h5>
+                </li>
+                <li>
+                    <h5>Lucas Geffin</h5>
+                </li>
+            </ul>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Join Chicken Clan</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        First Name
+                        <input class="input" type="text" id="firstName" value="">
+                        <br> Surname
+                        <input class="input" type="text" id="surname" value="">
+                        <br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="onSubmit()" data-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="js/join.js"></script>
+
+</html>
