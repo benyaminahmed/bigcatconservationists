@@ -3,3 +3,19 @@
     height: 670px;
     background-size: contain;
 }
+
+.foot {
+    background-color: darkred;
+    border-bottom: 10px solid darkred; 
+}
+
+.text-footer {
+    color: white;
+    margin-top: 10px;
+}
+
+.img-footer {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}

@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="page-content">
         <div>
             <!-- Button trigger modal -->
             <button type="button" class="btn ba-btn" data-toggle="modal" data-target="#exampleModal">
@@ -81,6 +81,12 @@
                 <li>
                     <h5>Lucas Geffin</h5>
                 </li>
+                <li>
+                    <h5>Joshua Williams</h5>
+                </li>
+                <li>
+                    <h5>Felix Ashman Rodgers</h5>
+                </li>
             </ul>
         </div>
         <!-- Modal -->
@@ -93,22 +99,42 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        First Name
-                        <input class="input" type="text" id="firstName" value="">
-                        <br> Surname
-                        <input class="input" type="text" id="surname" value="">
-                        <br>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" onclick="onSubmit()" data-dismiss="modal">Submit</button>
-                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="firstName">First name:</label>
+                                <input class="form-control input" type="text" id="firstName" value="" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="surname">Surname:</label>
+                                <input class="form-control input" type="text" id="surname" value="" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" type="submit" class="btn btn-primary" onclick="onSubmit()" data-dismiss="modal">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
 
     </div>
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-1">
+                    <img class="img-footer" src="favicon.ico" alt="">
+                </div>
+                <div class="col col-lg-11">
+                    <p class="text-footer">This website offers a high-level description of our venture. Chicken Clan Ltd is incorporated in England,
+                        with its registered office at 18 Some Street, London UK. Copyright © Chicken Clan 2018. All rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="js/join.js"></script>
 
