@@ -1,2 +1,2 @@
 # chicken-clan
-https://benyaminahmed.github.io/chicken-clan/join.html
+https://benyaminahmed.github.io/chicken-clan/index.html

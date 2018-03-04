@@ -27,7 +27,22 @@ const allowedNames = [
     "daniel southon",
     "oscar wilson",
     "hamza shehabi",
-    "oliver ockleford"
+    "oliver ockleford",
+    "rakshaan desaur",
+    "trian lakha",
+    "william pixton",
+    "rian unulkat",
+    "ishaan thakra",
+    "nayan patel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+
 ];
 
 function onSubmit() {
