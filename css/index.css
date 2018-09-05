@@ -1,21 +1,36 @@
-.big-img {
-    width: 100%;
-    height: 670px;
-    background-size: contain;
+.header {
+    background-color: midnightblue;
+    margin: 0;
+    padding: 10px;
 }
 
-.foot {
-    background-color: red;
-    border-bottom: 10px solid red; 
-}
-
-.text-footer {
+.title {
+    font-size: 30px;
+    font-family: 'Vesper Libre', serif;
+    position: absolute;
+    top: 5px;
     color: white;
-    margin-top: 10px;
 }
 
-.img-footer {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+.div {
+    background-color: midnightblue;
+}
+
+.div2 {
+    border-bottom: 1px solid midnightblue;
+}
+
+.btn-header {
+    background-color: midnightblue;
+    color: white !important;
+}
+
+.div1 {
+    font-family: 'Neuton', serif;
+    margin-top: 100px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
 }

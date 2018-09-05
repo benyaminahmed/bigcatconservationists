@@ -1,11 +1,11 @@
 .btn {
-    background-color: red;
+    background-color: midnightblue;
 }
 
 .ba-btn {
     margin: 10px;
     text-align: center;
-    margin-left: 670px;
+    margin-left: 675px;
 }
 
 input[type=text] {
@@ -17,23 +17,4 @@ input[type=text] {
 .ul {
     list-style-type: none;
     text-align: center;
-}
-
-input:invalid {
-    border: 1px solid red;
-}
-
-input:valid {
-    border: 1px solid green;
-}
-
-.secret {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    background-color: transparent;
-    color: black;
-    text-decoration: none;
 }

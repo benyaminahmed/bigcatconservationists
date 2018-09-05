@@ -1,4 +1,4 @@
-const pwd = "ch153n";
+const pwd = "h011yw00d";
 const wrongPassword = document.getElementById('wrongPassword');
 wrongPassword.style.display = "none";
 
