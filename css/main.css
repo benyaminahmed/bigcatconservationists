@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: darkgreen;
+    background-color: black;
     margin: 0;
     padding: 10px;
 }
@@ -16,11 +16,11 @@
 }
 
 .div {
-    background-color: darkgreen;
+    background-color: black;
 }
 
 .div2 {
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid black;
     font-size: 30px;
 }
 
@@ -29,7 +29,7 @@ p, .div2 {
 }
 
 .btn-header {
-    background-color: darkgreen;
+    background-color: black;
     color: white !important;
 }
 
