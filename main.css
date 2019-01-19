@@ -28,3 +28,8 @@ body {
 .card {
     margin: 10px;
 }
+
+.picy{
+    border-radius: 50%;
+    margin-left: 15px
+}

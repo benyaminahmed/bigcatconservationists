@@ -27,14 +27,11 @@
             <div class="row">
                 <div class="col">
                     <a href="index.html" class="link">
-                        <h1 class="title">BA-Exotics</h1>
+                        <h1 class="title">BAs Insects</h1>
                     </a>
                 </div>
                 <div class="col">
                     <div class="div">
-                        <a href="about-us.html" class="btn btn-header">
-                            <img src="img/abou.png" alt="" width="40px" height="32px" class="tweezers">
-                        </a>
                         <a href="enemies.html" class="btn btn-header">
                             <img src="img/pra.png" alt="" width="48px" height="32px" class="tweezers">
                         </a>
@@ -48,7 +45,7 @@
     </div>
     <div class="buy">
         <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card  ml-4 mt-2" style="width: 18rem;">
                 <img class="card-img-top" src="img/pla.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Pray Mantis Catch Cups</h5>
@@ -71,7 +68,6 @@
                                 </div>
                                 <div class="modal-body">
                                     Are you sure you would like to buy this item?If yes please fill in this form.
-                                    <h1 class="text">Pray Mantis Breeders</h1>
                                     <center>
 
                                         <form action="benyaminahmed2@gmail.com" method="GET">
@@ -122,24 +118,39 @@
                                                 </li>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                    <a href="form.html">
-                                        <button type="button" href="form.html" class="btn btn-primary">Yes</button>
-                                    </a>
+                                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                                        <!-- Identify your business so that you can collect the payments. -->
+                                        <input type="hidden" name="business" value="kin@kinskards.com">
+
+                                        <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+
+                                        <!-- Specify details about the item that buyers will purchase. -->
+                                        <input type="hidden" name="item_name" value="Birthday - Cake and Candle">
+                                        <input type="hidden" name="amount" value="3.95">
+                                        <input type="hidden" name="currency_code" value="USD">
+
+                                        <!-- Display the payment button. -->
+                                        <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" alt="Add to Cart">
+                                        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                                    </form>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card  ml-4 mt-2" style="width: 18rem;">
                 <img class="card-img-top" src="img/twe.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Tweezers</h5>
                     <p class="card-text">Sorry but this item is out of stock.</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card  ml-4 mt-2" style="width: 18rem;">
                 <img class="card-img-top" src="img/cri.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Live Crickets</h5>
