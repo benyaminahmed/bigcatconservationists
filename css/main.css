@@ -10,9 +10,8 @@
 }
 
 .title {
-    font-size: 30px;
-    position: absolute;
-    top: 5px;
+    height: 60px;
+    width: 266px;
 }
 
 .div {
