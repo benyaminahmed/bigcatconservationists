@@ -80,7 +80,11 @@ body {
 .second-main-image {
     width: 100%;
     border-bottom: 2px solid cyan;
+    overflow-x: hidden;
 }
 
-.second-main-image:hover {
+.group-cards {
+    position: absolute;
+    top: 1300px;
+    left: -50px;
 }
