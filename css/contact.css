@@ -1,0 +1,48 @@
+.dashed {
+    color: inherit;    
+    text-decoration: none;
+    color: #28242f;
+    font-size: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    height: 500px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.dashed:hover {
+    color: inherit;    
+    text-decoration: none;
+    color: #28242f;
+}
+
+.link {
+    color: inherit;    
+    text-decoration: none;
+    color: #7a7a8c;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 200px;
+    height: 100px;
+    margin-left: 400px;
+    display: flex;
+    position: relative;
+    background: linear-gradient(90deg,cyan, #40a8c4);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+.link:hover {
+    color: inherit;    
+    text-decoration: none;
+    color: #7a7a8c;
+    
+}
+
+.link-2 {
+    margin-top: -605px;
+}
+
